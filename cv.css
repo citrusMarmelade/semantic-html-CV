@@ -26,8 +26,12 @@ html {
 
 body {
   max-width: 900px;
-  padding: 1em 2em;
-  background-color: #ffc;
+  padding: 1em;
+  background-color: #D0FF00; 
+  margin: 1em;
+  border: solid #333 1px;
+  border-radius: 1em;
+  box-shadow: rgb(51, 51, 51, 0.4) 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
 h1,
@@ -84,6 +88,10 @@ hr {
 
 a {
   text-decoration: none;
+}
+
+p {
+  text-indent: 2rem;
 }
 
 /* General style of each block */
